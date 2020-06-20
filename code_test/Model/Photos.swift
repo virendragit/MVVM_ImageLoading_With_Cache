@@ -8,9 +8,15 @@
 
 import Foundation
 
-struct Model {
+struct Photos: Codable {
     
     // Define properties representing
     // your app's data here.
+    
+    
+    var imageURL: String {
+         let urlString = String(format:"abc.com")
+         return urlString
+     }
     
 }
