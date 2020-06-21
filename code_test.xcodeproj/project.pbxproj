@@ -26,6 +26,8 @@
 		33FA2106249E706D00949E08 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA2105249E706D00949E08 /* GCD.swift */; };
 		33FA2108249E709000949E08 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA2107249E709000949E08 /* Result.swift */; };
 		33FA210A249E70A300949E08 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA2109249E70A300949E08 /* Extension.swift */; };
+		33FA210D249E74C800949E08 /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA210C249E74C800949E08 /* RequestConfig.swift */; };
+		33FA210F249E77B000949E08 /* ImageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA210E249E77B000949E08 /* ImageDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		33FA2105249E706D00949E08 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 		33FA2107249E709000949E08 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		33FA2109249E70A300949E08 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		33FA210C249E74C800949E08 /* RequestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		33FA210E249E77B000949E08 /* ImageDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				330EF0A5249DF1D100890D54 /* AppDelegate.swift */,
 				330EF0A7249DF1D100890D54 /* SceneDelegate.swift */,
 				330EF0A9249DF1D100890D54 /* ViewController.swift */,
+				33FA210C249E74C800949E08 /* RequestConfig.swift */,
 				33FA20F0249E50BA00949E08 /* Cache */,
 				33FA20ED249E4F1F00949E08 /* Constants */,
 				33FA20F1249E512100949E08 /* Model */,
@@ -120,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				330EF0B9249E04D000890D54 /* Photos.swift */,
+				33FA210E249E77B000949E08 /* ImageDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,9 +252,11 @@
 				33FA20FB249E61D300949E08 /* NetworkManager.swift in Sources */,
 				33FA20F6249E5B1100949E08 /* ViewModel.swift in Sources */,
 				33FA20F8249E5CA700949E08 /* Services.swift in Sources */,
+				33FA210F249E77B000949E08 /* ImageDetails.swift in Sources */,
 				330EF0A8249DF1D100890D54 /* SceneDelegate.swift in Sources */,
 				330EF0BA249E04D000890D54 /* Photos.swift in Sources */,
 				33FA20EC249E4E8800949E08 /* Constants.swift in Sources */,
+				33FA210D249E74C800949E08 /* RequestConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

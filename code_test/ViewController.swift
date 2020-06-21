@@ -12,13 +12,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     let dataSource = ["one","two","three"]
     
+    private var vModel = viewModel()
+    
     @IBOutlet weak var table_View: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        table_View.delegate = self
-        table_View.dataSource = self
+//        table_View.delegate = self
+//        table_View.dataSource = self
+        
+        
+        vModel.loadImages() {
+            print("search completed.")
+        }
         
     }
     
